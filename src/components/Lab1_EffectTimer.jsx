@@ -17,7 +17,7 @@ export default function Lab1EffectTimer() {
     // TODO 3: return Cleanup 함수에서 clearInterval 호출
     return () => clearInterval(id);
     // TODO 4: Dependency Array가 []일 때와 생략했을 때의 차이 관찰
-  }), [];
+  }, []);
 
   return (
     <div>
